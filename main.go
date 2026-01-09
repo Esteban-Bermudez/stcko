@@ -25,5 +25,9 @@ func main() {
 		return
 	}
 
+	// colly document.querySelectorAll(".MjjYud") then grab innerText then on that
+	// text I need to split on the NewLine character to grab relevant text
+
+
 	fmt.Printf("Opened URL: %s\n", url)
 }
